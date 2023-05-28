@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Text Editor</title>
+        <script src="https://kit.fontawesome.com/286c7c8f95.js"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <h2>Text Editor</h2>
+            <div class="style__container">
+                <div class="style">
+                    <div>
+                        <i class="fa-solid fa-b" onclick="bold()"></i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-italic" onclick="italicText()"></i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-underline" onclick="underLine()"></i>
+                    </div>
+                </div>
+                <div class="align">
+                    <div>
+                        <i class="fa-solid fa-align-left"></i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-align-center"></i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-align-right"></i>
+                    </div>
+                </div>
+                <div class="size__color">
+                    <div>
+                        <input type="number" id="font__size" placeholder="Font Size">
+                    </div>
+                    <div>
+                        <input type="color" id="color">
+                    </div>
+
+                </div>
+            </div>
+            <div class="text-area">
+                <textarea name="" id="text__content" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
